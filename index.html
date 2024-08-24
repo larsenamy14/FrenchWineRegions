@@ -42,8 +42,9 @@
                         onEachFeature: function(feature, layer) {
                             // Bind a popup to display the name of each wine region
                             layer.bindPopup(`
-                                <strong>${feature.properties.name}</strong><br>
-                                <strong>Producers: </strong>${feature.properties.producers || 'N/A'}
+                                <div style="font-size: 18px; font-weight: bold;">${feature.properties.region}</div>
+                                <div style="font-size: 16px; font-weight: bold;">${feature.properties.name}</div>
+                                <div style="font-size: 14px;"><strong>Producers:</strong> ${feature.properties.producers || 'N/A'}</div>
                             `);
 
                             // Optional: Open the popup when hovering over a region
@@ -64,6 +65,7 @@
         addGeoJSON('src/data/Bordeaux.geojson');
         addGeoJSON('src/data/Champagne.geojson');
         addGeoJSON('src/data/Burgundy.geojson');
+        addGeoJSON('src/data/LoireValley.geojson');
 
     </script>
 </body>
