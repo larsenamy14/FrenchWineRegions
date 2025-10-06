@@ -100,7 +100,8 @@
         "type":"Feature",
         "properties":{
             "region": "Loire Valley",
-            "name":"Centre"
+            "name":"Centre",
+            "appellations": "Sancerre"
             },
             "geometry":{
                 "type":"Polygon",
