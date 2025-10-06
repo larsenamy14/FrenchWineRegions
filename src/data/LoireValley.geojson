@@ -101,7 +101,11 @@
         "properties":{
             "region": "Loire Valley",
             "name":"Centre",
-            "appellations": "Sancerre"
+            "appellations": 
+                [
+                    "Sancerre",
+                    "Pouilly-Fume"
+                ]
             },
             "geometry":{
                 "type":"Polygon",
