@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Fetch and add the GeoJSON data to the map
-fetch('src/src/data/RhoneValley.geojson')
+fetch('src/src/geojson/RhoneValley.geojson')
     .then(response => response.json())
     .then(data => {
         L.geoJSON(data, {
