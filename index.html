@@ -62,6 +62,20 @@
                                 opacity: 1,
                                 fillOpacity: 0.8
                             });
+                        },
+                        onEachFeature: function(feature, layer) {
+                            // Bind a popup to display the name of each wine region
+                            layer.bindPopup(`
+                                <div style="font-size: 18px; font-weight: bold;">${feature.properties.label}</div>
+                            `);
+
+                            // Optional: Open the popup when hovering over a region
+                            layer.on('mouseover', function(e) {
+                                layer.openPopup();
+                            });
+                            layer.on('mouseout', function(e) {
+                                layer.closePopup();
+                            });
                         }
                     }).addTo(map);
                 })
