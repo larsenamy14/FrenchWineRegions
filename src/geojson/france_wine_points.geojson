@@ -1,1 +1,119 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.570681,44.840115]},"bbox":[-0.570681,44.840115,-0.570681,44.840115],"properties":{"label":"Bordeaux - Gironde, France"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[4.832011,45.757814]},"bbox":[4.832011,45.757814,4.832011,45.757814],"properties":{"label":"Rhône - France"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[4.5,47]},"bbox":[4.5,47,4.5,47],"properties":{"label":"Burgundy - France"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[4.800058,45.273537]},"bbox":[4.800058,45.273537,4.800058,45.273537],"properties":{"label":"Champagne - Ardèche, France"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[3.166667,43.666667]},"bbox":[3.166667,43.666667,3.166667,43.666667],"properties":{"label":"Languedoc-Roussillon - France"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[0.06218,47.21629]},"bbox":[0.06218,47.21629,0.06218,47.21629],"properties":{"label":"Loire Valley - France"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.570681,
+                    44.840115
+                ]
+            },
+            "bbox": [
+                -0.638699,
+                44.810742,
+                -0.533325,
+                44.917719
+            ],
+            "properties": {
+                "label": "Bordeaux - Gironde, France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.832011,
+                    45.757814
+                ]
+            },
+            "bbox": [
+                4.243851,
+                45.454368,
+                5.159961,
+                46.306217
+            ],
+            "properties": {
+                "label": "Rhône - France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.5,
+                    47
+                ]
+            },
+            "bbox": [
+                2.85,
+                46.15,
+                5.65,
+                48.35
+            ],
+            "properties": {
+                "label": "Burgundy - France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.800058,
+                    45.273537
+                ]
+            },
+            "bbox": [
+                4.785155,
+                45.264816,
+                4.81068,
+                45.289202
+            ],
+            "properties": {
+                "label": "Champagne - Ardèche, France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.166667,
+                    43.666667
+                ]
+            },
+            "bbox": [
+                0.500012,
+                42.340512,
+                5.499988,
+                45.199991
+            ],
+            "properties": {
+                "label": "Languedoc-Roussillon - France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.06218,
+                    47.21629
+                ]
+            },
+            "bbox": [
+                -1,
+                47.05,
+                2.4,
+                47.95
+            ],
+            "properties": {
+                "label": "Loire Valley - France"
+            }
+        }
+    ]
+}
