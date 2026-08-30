@@ -62,22 +62,6 @@
                                 opacity: 1,
                                 fillOpacity: 0.8
                             });
-                        },
-                        onEachFeature: function(feature, layer) {
-                            // Bind a popup to display the name of each wine region
-                            layer.bindPopup(`
-                                <div style="font-size: 18px; font-weight: bold;">${feature.properties.region}</div>
-                                <div style="font-size: 16px; font-weight: bold;">${feature.properties.name}</div>
-                                <div style="font-size: 14px;"><strong>Appellations:</strong> ${feature.properties.appellations}</div>
-                            `);
-
-                            // Optional: Open the popup when hovering over a region
-                            layer.on('mouseover', function(e) {
-                                layer.openPopup();
-                            });
-                            layer.on('mouseout', function(e) {
-                                layer.closePopup();
-                            });
                         }
                     }).addTo(map);
                 })
@@ -85,12 +69,12 @@
         }
 
         // Load the GeoJSON files
-        addGeoJSON('src/data/RhoneValley.geojson');
-        addGeoJSON('src/data/Bordeaux.geojson');
-        addGeoJSON('src/data/Champagne.geojson');
-        addGeoJSON('src/data/Burgundy.geojson');
-        addGeoJSON('src/data/LoireValley.geojson');
-        addGeoJSON('src/data/Languedoc-Roussillon.geojson');
+        //addGeoJSON('src/geojson/RhoneValley.geojson');
+        //addGeoJSON('src/geojson/Bordeaux.geojson');
+        //addGeoJSON('src/geojson/Champagne.geojson');
+        //addGeoJSON('src/geojson/Burgundy.geojson');
+        //addGeoJSON('src/geojson/LoireValley.geojson');
+        //addGeoJSON('src/geojson/Languedoc-Roussillon.geojson');
         addGeoJSON('src/geojson/france_wine_points.geojson');
         
     </script>
